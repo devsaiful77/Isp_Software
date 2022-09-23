@@ -1,0 +1,127 @@
+*{
+	margin:0px;
+	padding:0px;
+	outline:0px;
+	}
+
+img{
+	border:0px;
+	}
+
+ul, ol{
+	list-style-type:none;
+	}
+
+a{
+	text-decoration:none;
+}
+
+.user-registration {
+	margin: 0;
+	float: left;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+.all_link {
+	color: #fff;
+	background: #2f3d4a;
+	padding: 5px 10px;
+	float: right;
+	border-radius: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-left: 4px;
+}
+.all_link:hover {
+	color: #26dad2;
+}
+.require_star {
+    color: red;
+}
+.btn.btn-info.registration-btn {
+	padding: 13px 50px;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.has-error .col-form-label{
+	color: red;
+}
+
+.has-error .form-control{
+	border: 1px solid red;
+}
+
+.has-error .invalid-feedback{
+	display: block;
+	margin-left: 10px;
+}
+
+.view-icon i, .edit-icon i, .delete-icon i{
+	font-size: 18px;
+}
+
+.view-icon, .edit-icon, .delete-icon {
+	border-radius: 4px;
+	padding: 1px 7px;
+	display: inline-block;
+}
+.view-icon i{
+	color: white;
+}
+
+.edit-icon i{
+	color: white;
+}
+
+.delete-icon i{
+	color: white;
+}
+
+.link-share a {
+	color: cyan;
+}
+
+.count-style h2 {
+	color: white;
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+.imagestyle{
+	color: red;
+	font-weight:bold;
+}
+
+.btnu {
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 30px;
+}
+.searchBy {
+    border: 1px solid #dddddd;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 30px;
+}
+
+.action_button_wraper{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.action_button {
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 5px;
+}

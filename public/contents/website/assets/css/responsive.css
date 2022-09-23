@@ -1,0 +1,55 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .owner-photo img {
+        height: 99px;
+        float: inherit !important;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 768px) {
+    .header-content p {
+        padding: 20px 0px;
+    }
+    .owner-photo {
+        float: none;
+    }
+    .slider-content {
+        padding: 80px 25px;
+    }
+    .slider-content h4 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .carousel-control-prev-icon{
+        display: none;
+    }
+    .carousel-control-next-icon{
+        display: none;
+    }
+    .carousel-indicators li{
+        display: none;
+    }
+    .slider-image{
+        height: 300px;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+}
